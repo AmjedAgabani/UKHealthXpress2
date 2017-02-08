@@ -1,0 +1,10 @@
+/* Navigation */
+
+nav .logo {
+    text-align: center;
+}
+
+nav .logo img {
+    height: auto;
+    max-width: 100%;
+}
