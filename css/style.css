@@ -1,14 +1,17 @@
-/* Page Header */
-
-page-header .logo {
-    text-align: center;
-}
-
-page-header .logo img {
-    height: auto;
-    max-width: 100%;
-}
-
-
-/* Navigation Bar */
-
+    /* Page reset */
+    
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    /* Page Header */
+    
+    page-header .logo {
+        text-align: center;
+    }
+    
+    page-header .logo img {
+        height: auto;
+        max-width: 100%;
+    }
