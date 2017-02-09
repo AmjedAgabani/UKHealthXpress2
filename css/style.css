@@ -239,12 +239,65 @@ body {
 }
 
 /* Appointment page Styling */
+
 .optionlist li {
     font-size: 20px;
 }
 
 .optionlist p {
     font-family: Raleway, Arial, sans-serif;
+}
+
+/* Contact page Styling */
+
+.map {
+    padding-top: 45.225px;
+}
+
+.highlight {
+    color: #1365B2;
+    font-weight: 600;
+}
+
+.message-form input {
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    margin: 8px 0;
+    outline: none;
+    padding: 12px 20px;
+    width: 100%;
+}
+
+.message-form input:focus {
+    border: 2px solid #8caee5;
+}
+
+.message-form textarea {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Raleway, sans-serif;
+    height: 150px;
+    padding 12px 20px;
+    resize: none;
+    width: 100%;
+    
+}
+.message-form input[type=submit] {
+    background-color: #7E7E7C;
+    display: block;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    padding: 10px 0;
+    text-decoration: none;
+    width: 100%;
+}
+
+.message-form input[type=submit]:hover {
+    color: white;
+    background-color: #1365B2;
 }
 
 /* Page Footer */
