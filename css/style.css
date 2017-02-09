@@ -176,6 +176,7 @@ body {
 
 .page-banner img {
     height: auto;
+    margin-bottom: 10px;
     max-width: 100%;
 }
 
@@ -210,6 +211,43 @@ body {
 .appointment-button:hover {
     background-color: #1365B2;
 }
+
+/* Services page Styling */
+
+.info-panel {
+    border: 1px solid black;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.morebutton {
+    background-color: white;
+    border: 1px solid #333;
+    color: black;
+    font-family: Raleway, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.50px;
+    margin-top: 50px;
+    padding: 12px 26px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.morebutton:hover {
+    background-color: #1365B2;
+    color: #ffffff;
+}
+
+/* Appointment page Styling */
+.optionlist li {
+    font-size: 20px;
+}
+
+.optionlist p {
+    font-family: Raleway, Arial, sans-serif;
+}
+
+/* Page Footer */
 
 .footer {
     background: #2B2B2B;
