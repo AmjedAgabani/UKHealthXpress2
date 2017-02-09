@@ -1,10 +1,11 @@
-/* Page reset */
+    /* Page reset */
 
 html,
 body {
     margin: 0;
     padding: 0;
 }
+
 
 /* Page Header */
 
@@ -17,7 +18,9 @@ body {
     max-width: 100%;
 }
 
+
 /* Navigation Bar */
+
 .nav {
     background: #2B2B2B;
     background-image: -webkit-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
@@ -90,7 +93,7 @@ body {
     text-shadow: none;
 }
 
-.nav ul.primary li:hover > a {
+.nav ul.primary li:hover>a {
     color: #000;
 }
 
@@ -129,45 +132,37 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-
-    .wrap {
+    .nav-wrap {
         margin-top: 0;
         width: 100%;
     }
-
     .nav-center {
         display: block;
     }
-
     .nav li {
         float: none;
     }
-
     .nav ul.primary li:hover a {
         background: none;
         color: #8B8B8B;
         text-shadow: 1px 1px #000;
     }
-
     .nav ul.primary li:hover ul {
         background: #272727;
         color: #fff;
         display: block;
     }
-
     .nav ul.sub {
         box-shadow: none;
         display: block;
         position: static;
         width: 100%;
     }
-
     .nav ul.sub li a {
         background: #272727;
         border: none;
         color: #8B8B8B;
     }
-
     .nav ul.sub li a:hover {
         background: none;
         color: #ccc;
@@ -175,16 +170,53 @@ body {
 }
 
 .content {
-    max-width: 960px;
     margin: 0 auto;
+    max-width: 960px;
 }
 
-.page-banner img{
+.page-banner img {
     height: auto;
     max-width: 100%;
 }
 
+/* Home page styling */
+
+.guarantee {
+    text-align: center;
+}
+
+.guarantee img {
+    height: 75px;
+    width: 75px;
+}
+
+.appointment-buttonbox {
+    margin: 25px 0 100px 0;
+    position: relative;
+    text-align: center;
+}
+.appointment-button {
+    background-color: #333;
+    color: #fff;
+    font-family: "Poiret One", Arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: 1.50px;
+    padding: 16px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.appointment-button:hover {
+    background-color: #1365B2;
+}
+
 .footer {
     background: #2B2B2B;
-    color: white;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer a {
+    color: inherit;
 }
