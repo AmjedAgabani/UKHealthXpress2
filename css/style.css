@@ -33,6 +33,13 @@ body {
     -moz-box-shadow: 2px 2px 3px #888;
 }
 
+.nav ul {
+    list-style: none;
+    padding-left: 0;
+    position: relative;
+    text-align: left;
+}
+
 .nav li {
     float: left;
 }
@@ -41,12 +48,6 @@ body {
     color: #fff;
     display: block;
     text-decoration: none;
-}
-
-.nav ul {
-    list-style: none;
-    position: relative;
-    text-align: left;
 }
 
 .nav ul:before,
